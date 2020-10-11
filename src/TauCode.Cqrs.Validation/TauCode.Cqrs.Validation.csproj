@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TauCode.Cqrs" Version="1.3.2.1-dev-2020-10-11-15-28" />
+    <PackageReference Include="TauCode.Domain" Version="1.3.2.1-dev-2020-10-11-14-41" />
+    <PackageReference Include="TauCode.Validation" Version="1.3.2.1-dev-2020-10-11-11-09" />
+  </ItemGroup>
+
+</Project>
