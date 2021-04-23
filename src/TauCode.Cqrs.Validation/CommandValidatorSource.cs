@@ -20,7 +20,7 @@ namespace TauCode.Cqrs.Validation
         /// <summary>
         /// Key is command type, Value is command validator constructor
         /// </summary>
-        private readonly Dictionary<Type, ConstructorInfo> _commandValidatorConstructors;
+        private readonly Dictionary<Type, ConstructorInfo> _commandValidatorConstructors; // todo: bad idea with ctor-s. what if validator depends on some service? consider IoC.
 
         #endregion
 
