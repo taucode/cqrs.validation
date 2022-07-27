@@ -1,3 +1,11 @@
-2020-10-11
+﻿2020-10-11
 ==========
     1. Created this repo in order to clean TauCode.Cqrs from Domain and Validation stuff.
+
+2021-04-23
+==========
+    1. Resurrected.
+
+2022-07-27
+==========
+    1. Release 1.3.7.
