@@ -1,19 +1,18 @@
 ﻿using NUnit.Framework;
 
-namespace TauCode.Cqrs.Validation.Tests
+namespace TauCode.Cqrs.Validation.Tests;
+
+[TestFixture]
+public class CqrsValidationDummyFixture
 {
-    [TestFixture]
-    public class CqrsValidationDummyFixture
+    [Test]
+    public void CqrsValidationDummyTest()
     {
-        [Test]
-        public void CqrsValidationDummyTest()
-        {
-            // Arrange
+        // Arrange
 
-            // Act
+        // Act
 
-            // Assert
-            Assert.Pass("Added for Azure DevOps compliance.");
-        }
+        // Assert
+        Assert.Pass("Added for Azure DevOps compliance.");
     }
 }
