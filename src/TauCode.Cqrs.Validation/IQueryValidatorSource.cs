@@ -1,12 +1,10 @@
 ﻿using FluentValidation;
-using System;
 using TauCode.Cqrs.Abstractions;
 
-namespace TauCode.Cqrs.Validation
+namespace TauCode.Cqrs.Validation;
+
+public interface IQueryValidatorSource
 {
-    public interface IQueryValidatorSource
-    {
-        Type[] GetQueryTypes();
-        IValidator<TQuery> GetValidator<TQuery>() where TQuery : IQuery;
-    }
+    Type[] GetQueryTypes();
+    IValidator<TQuery> GetValidator<TQuery>() where TQuery : IQuery;
 }

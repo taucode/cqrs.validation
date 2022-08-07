@@ -1,12 +1,10 @@
 ﻿using FluentValidation;
-using System;
 using TauCode.Cqrs.Abstractions;
 
-namespace TauCode.Cqrs.Validation
+namespace TauCode.Cqrs.Validation;
+
+public interface ICommandValidatorSource
 {
-    public interface ICommandValidatorSource
-    {
-        Type[] GetCommandTypes();
-        IValidator<TCommand> GetValidator<TCommand>() where TCommand : ICommand;
-    }
+    Type[] GetCommandTypes();
+    IValidator<TCommand> GetValidator<TCommand>() where TCommand : ICommand;
 }
