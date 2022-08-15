@@ -1,5 +1,4 @@
 ﻿using FluentValidation;
-using TauCode.Cqrs.Abstractions;
 using TauCode.Cqrs.Commands;
 
 namespace TauCode.Cqrs.Validation;
