@@ -1,6 +1,5 @@
 ﻿using FluentValidation;
 using System.Reflection;
-using TauCode.Cqrs.Abstractions;
 
 namespace TauCode.Cqrs.Validation;
 

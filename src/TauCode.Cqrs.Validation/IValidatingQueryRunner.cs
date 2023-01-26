@@ -1,5 +1,4 @@
-﻿using TauCode.Cqrs.Abstractions;
-using TauCode.Cqrs.Queries;
+﻿using TauCode.Cqrs.Queries;
 
 namespace TauCode.Cqrs.Validation;
 
