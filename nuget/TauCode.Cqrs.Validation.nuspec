@@ -2,24 +2,24 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>TauCode.Cqrs.Validation</id>
-    <version>1.7.1-alpha.1.2023-01-26.11-39</version>
+    <version>1.8.1-alpha.1.2023-04-07.09-19</version>
     <authors>TauCode</authors>
     <owners>TauCode</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="file">LICENSE</license>
-    <projectUrl>https://github.com/taucode/taucode.cqrs.validation</projectUrl>
-    <repository type="git" url="https://github.com/taucode/taucode.cqrs.validation"/>
+    <projectUrl>https://github.com/taucode/cqrs.validation</projectUrl>
+    <repository type="git" url="https://github.com/taucode/cqrs.validation"/>
     <description>
       Validation support for CQRS features.
     </description>
     <releaseNotes>
-      Developing release 1.7.1.
+      Developing release 1.8.1.
     </releaseNotes>
     <tags>taucode cqrs fluent validation</tags>
     <dependencies>
       <group targetFramework=".NETCoreApp6.0">
         <dependency id="FluentValidation" version="11.4.0" />
-        <dependency id="TauCode.Cqrs" version="1.7.0" />
+        <dependency id="TauCode.Cqrs" version="1.8.1-alpha.1.2023-04-06.11-19" />
       </group>
     </dependencies>
   </metadata>

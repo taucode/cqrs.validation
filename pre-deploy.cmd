@@ -1,12 +1,9 @@
 dotnet restore
 
-dotnet clean --configuration Debug
-dotnet clean --configuration Release
+dotnet build TauCode.Cqrs.Validation.sln -c Debug
+dotnet build TauCode.Cqrs.Validation.sln -c Release
 
-dotnet build --configuration Debug
-dotnet build --configuration Release
-
-dotnet test -c Debug .\test\TauCode.Cqrs.Validation.Tests\TauCode.Cqrs.Validation.Tests.csproj
-dotnet test -c Release .\test\TauCode.Cqrs.Validation.Tests\TauCode.Cqrs.Validation.Tests.csproj
+dotnet test TauCode.Cqrs.Validation.sln -c Debug
+dotnet test TauCode.Cqrs.Validation.sln -c Release
 
 nuget pack nuget\TauCode.Cqrs.Validation.nuspec

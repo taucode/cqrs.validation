@@ -3,10 +3,10 @@
 namespace TauCode.Cqrs.Validation.Tests;
 
 [TestFixture]
-public class CqrsValidationDummyFixture
+public class DummyFixture
 {
     [Test]
-    public void CqrsValidationDummyTest()
+    public void DummyTest()
     {
         // Arrange
 
