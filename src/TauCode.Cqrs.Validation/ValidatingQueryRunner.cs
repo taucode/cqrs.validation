@@ -3,6 +3,8 @@ using TauCode.Cqrs.Queries;
 
 namespace TauCode.Cqrs.Validation;
 
+/*
+// todo
 public class ValidatingQueryRunner : QueryRunner, IValidatingQueryRunner
 {
     #region Constructor
@@ -72,3 +74,5 @@ public class ValidatingQueryRunner : QueryRunner, IValidatingQueryRunner
 
     #endregion
 }
+
+*/
