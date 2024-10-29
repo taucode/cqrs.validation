@@ -3,6 +3,8 @@ using TauCode.Cqrs.Commands;
 
 namespace TauCode.Cqrs.Validation;
 
+/*
+//  todo
 public class ValidatingCommandDispatcher : CommandDispatcher, IValidatingCommandDispatcher
 {
     #region Constructor
@@ -76,3 +78,4 @@ public class ValidatingCommandDispatcher : CommandDispatcher, IValidatingCommand
 
     #endregion
 }
+*/
