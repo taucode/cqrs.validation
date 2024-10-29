@@ -3,6 +3,8 @@ using System.Reflection;
 
 namespace TauCode.Cqrs.Validation;
 
+/*
+// todo
 public class CommandValidatorSource : ICommandValidatorSource
 {
     #region Constants
@@ -98,3 +100,5 @@ public class CommandValidatorSource : ICommandValidatorSource
 
     #endregion
 }
+
+*/

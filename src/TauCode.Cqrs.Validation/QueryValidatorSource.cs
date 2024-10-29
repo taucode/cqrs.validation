@@ -3,6 +3,8 @@ using System.Reflection;
 
 namespace TauCode.Cqrs.Validation;
 
+/*
+// todo
 public class QueryValidatorSource : IQueryValidatorSource
 {
     #region Constants
@@ -99,3 +101,4 @@ public class QueryValidatorSource : IQueryValidatorSource
 
     #endregion
 }
+*/
